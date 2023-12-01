@@ -1,0 +1,8 @@
+﻿  boost_project1_xml.cpp
+C:\Users\Zhema\Documents\cpp_projects\NoteBook\NoteBook\Note.h(34,17): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Users\Zhema\Documents\cpp_projects\NoteBook\NoteBook\Note.h(40,18): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Users\Zhema\Documents\cpp_projects\NoteBook\NoteBook\Note.h(135,17): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Users\Zhema\Documents\cpp_projects\NoteBook\NoteBook\Note.h(142,18): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Users\Zhema\Documents\cpp_projects\NoteBook\NoteBook\Note.h(204,17): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+C:\Users\Zhema\Documents\cpp_projects\NoteBook\NoteBook\Note.h(211,18): warning C4267: 'initializing': conversion from 'size_t' to 'uint16_t', possible loss of data
+  boost_project1_xml.vcxproj -> C:\Users\Zhema\Documents\cpp_boost_projects\boost_project1_xml\x64\Debug\boost_project1_xml.exe

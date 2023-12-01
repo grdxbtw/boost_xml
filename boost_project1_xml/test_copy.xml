@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Notes>
+	<note type="0">
+		<title>first</title>
+		<date>12113</date>
+	</note>
+	<note type="2">
+		<title>second</title>
+		<date>12114</date>
+	</note>
+		<note type="1">
+		<title>third</title>
+		<date>12115</date>
+		<content>last note</content>
+	</note>
+</Notes>

@@ -1,0 +1,18 @@
+{
+    "Notes": {
+        "note": {
+            "<xmlattr>": {
+                "type": "0"
+            },
+            "title": "first",
+            "date": "12113"
+        },
+        "note": {
+            "<xmlattr>": {
+                "type": "0"
+            },
+            "title": "second",
+            "date": "12114"
+        }
+    }
+}

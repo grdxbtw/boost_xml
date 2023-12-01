@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<cockpit>
+	<!-- UI language: auto | en | et | ru | uk -->
+	<language>auto</language>
+	<fontsize>-1</fontsize>
+	<colour1>0x00AAAA</colour1>
+	<color2>AAbb00</color2>
+	<colour3>00AA00</colour3>
+	<postpress>CRT; AGB; WQM;VAY</postpress>
+	<workdir>d:\o_temp</workdir>
+	<ordersdir>D:\orders</ordersdir>
+	<ordertree>
+		<dir>Original</dir>
+		<dir>Prepared</dir>
+		<dir>Optimized\errors</dir>
+	</ordertree>
+	<categories>
+		<cat>Preedition</cat>
+		<cat tooltip="Operations for Customizing Embossing">Embossing</cat>
+		<cat tooltip="Job ticket stage">Job ticket</cat>
+		<cat tooltip="Set cutting">Cutting</cat>
+		<cat>Some other category</cat>
+		<cat>Some other category2</cat>
+	</categories>
+	<functions>
+		<task type="move" rename="" adddel="" cat="2">
+			<name>Filename normalization</name>
+			<source>D:\test_src</source>
+			<destination>D:\test_d</destination>
+			<!-- <backup>D:\test_d\technologist</backup> -->
+			<filter>*.pdf</filter>
+		</task>
+		<task type="copy" cat="1">
+			<name>from order C1</name>
+			<source>d:\o_temp</source>
+			<destination>d:\o_temp\Original</destination>
+			<filter>*</filter>
+		</task>
+		<task type="move" adddel="" cat="1">
+			<name>Back move renamed</name>
+			<source>D:\test_d</source>
+			<destination>D:\test_src</destination>
+			<filter>*.pdf</filter>
+		</task>
+		<task rename="" type="move" cat="2">
+			<name>Back Filename normalization</name>
+			<source>D:\test_d</source>
+			<destination>D:\test_src</destination>
+			<filter>*.pdf</filter>
+		</task>
+		<task type="copy" cat="3">
+			<name>Copy to operator</name>
+			<source>D:\test_src</source>
+			<destination>D:\test_d\op1</destination>
+			<filter>*.pdf</filter>
+		</task>
+		<task type="copy">
+			<name>Backup</name>
+			<source>D:\test_src</source>
+			<destination>D:\test_d</destination>
+			<filter>*</filter>
+		</task>
+		<task type="delete" cat="1" adddel="">
+			<name>Remove temp files</name>
+			<source>D:\test_d\op1\</source>
+			<destination>D:\do_not_used</destination>
+			<backup>D:\test_d\backup</backup>
+			<filter>*_temp.*</filter>
+		</task>
+		<task type="copy" cat="4">
+			<name>from order C4</name>
+			<source>d:\o_temp</source>
+			<destination>d:\o_temp\Prepared</destination>
+			<filter>*</filter>
+		</task>
+	</functions>
+</cockpit>
